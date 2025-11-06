@@ -188,6 +188,41 @@
   margin-top: 3px;
 }
 
+.developer-chip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 25px;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 25px;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  transition: all 0.3s ease;
+  cursor: default;
+  font-size: 0.95rem;
+}
+
+.developer-chip:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
+}
+
+.developer-label {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.developer-name {
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+
 @media (max-width: 768px) {
   .game-title {
     font-size: 2rem;
@@ -199,6 +234,19 @@
   
   .board-container {
     padding: 10px;
+  }
+  
+  .developer-chip {
+    padding: 10px 20px;
+    font-size: 0.85rem;
+  }
+  
+  .developer-label {
+    font-size: 0.75rem;
+  }
+  
+  .developer-name {
+    font-size: 0.9rem;
   }
 }
 

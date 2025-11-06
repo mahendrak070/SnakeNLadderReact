@@ -193,6 +193,11 @@ function App() {
             </div>
           ))}
         </div>
+
+        <div className="developer-chip">
+          <span className="developer-label">Developer</span>
+          <span className="developer-name">Mahendra Krishna</span>
+        </div>
       </div>
     </div>
   );
