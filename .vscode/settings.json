@@ -1,0 +1,14 @@
+{
+  "git.enabled": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.autoRepositoryDetection": true,
+  "files.watcherExclude": {
+    "**/node_modules/**": true
+  },
+  "files.exclude": {
+    "**/.git": false
+  }
+}
+
